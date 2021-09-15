@@ -15,3 +15,9 @@ let dinosaur = {
     type: "herbivore",
     quirk: "three horns"
 };
+
+function removeProperty (dinosaur, quirk) {
+    delete dinosaur.quirk;
+}
+
+return removeProperty(dinosaur, quirk);
