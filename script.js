@@ -6,7 +6,7 @@ Steps:
 1. Create an object.
 2. Write a function that deletes the property that is passed to that object.
 3. Pass in two parameters to the function, the object and the key/property I want to delete.
-4. 
+4. Return the object to see the changes.
 
 */
 
