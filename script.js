@@ -16,8 +16,9 @@ let dinosaur = {
     quirk: "three horns"
 };
 
-function removeProperty (dinosaur, quirk) {
-    delete dinosaur.quirk;
+function removeProperty (obj, key) {
+    delete obj[key];
 }
 
-return removeProperty(dinosaur, quirk);
+removeProperty(dinosaur, "quirk");
+return dinosaur;
