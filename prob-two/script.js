@@ -33,6 +33,4 @@ let people = [
     }
 ]
 
-function getNames (obj) {
-    
-}
+let fullNames = obj => obj.firstName + " " + obj.lastName;
