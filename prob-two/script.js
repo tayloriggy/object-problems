@@ -33,4 +33,10 @@ let people = [
     }
 ]
 
-let fullNames = obj => obj.firstName + " " + obj.lastName;
+function fullNames (obj) {
+    for (let i = 0; i < obj.length; i++) {
+        console.log(obj[i].firstName + " " + obj[i].lastName);
+    }
+}
+
+fullNames(people);
