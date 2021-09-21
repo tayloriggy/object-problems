@@ -19,7 +19,7 @@ let seasons = {
 };
 
 function getLength (obj) {
-    console.log(Object.keys(obj));
+    console.log(Object.keys(obj).length);
 }
 
 getLength(seasons);
