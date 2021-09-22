@@ -12,14 +12,14 @@ Steps:
 
 */
 
-let seasons = {
+const seasons = {
     summer: "hot",
     fall: "perfect",
     winter: "cold"
 };
 
 function getLength (obj) {
-    console.log(Object.keys(obj));
+    return Object.keys(obj).length;
 }
 
 getLength(seasons);
