@@ -15,8 +15,9 @@ Example array: [
 
    Steps:
    1. Create a function.
-   2. Use the given array and use the sort method to arrange objects by title value.
-   3. Return the object with titles sorted.
+   2. Compare two objects at a time to see which one needs to be sorted first. Use an if condition for this.
+   3. If the first item is less than the second item, return -1, otherwise if it is greater return 1. Otherwise return 0.
+   4. Use the sort method on the array and pass in the function.
 
 */
 
