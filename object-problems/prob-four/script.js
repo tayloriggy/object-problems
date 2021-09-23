@@ -21,4 +21,4 @@ function findKey (obj, key) {
     return key in obj;
 }
 
-findKey(obj, key);
+findKey(wrestler, key);
