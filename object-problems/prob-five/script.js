@@ -39,11 +39,17 @@ const arrayOfBooks = [
     }
 ];
 
-function sortTitles (obj) {
-    for (let i = 0; i < obj.length; i++){
-      return obj[i].title.sort();
+function sortTitles (obj1, obj2) {
+    if (obj1.title < obj2.title) {
+      return -1;
+    }
+    else if (obj1.title > obj2.title) {
+      return 1;
+    }
+    else {
+      return 0;
     }
     
 }
 
-sortTitles(arrayOfBooks);
+arrayOfBooks.sort(sortTitles);
