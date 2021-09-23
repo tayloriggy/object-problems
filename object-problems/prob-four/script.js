@@ -2,12 +2,12 @@
 Create an object, then write a JavaScript function that checks whether an object contains the specified key.
 
 Steps:
-1. Create an object
-2. Assign several keys to the object
-3. Write a function
-4. Use a for loop to go through the keys
-5. Use an if statement to check for the specified key that is passed into the function
-6. Return true if the object contains the specified key.
+1. Create an object.
+2. Assign several keys to the object.
+3. Write a function.
+4. Use a method to check if specified key exists in object.
+5. Return true if the object contains the specified key, otherwise return false.
+6. Call the function.
 
 */
 
@@ -17,3 +17,8 @@ const wrestler = {
     signature: "hurricanrana"
 };
 
+function findKey (obj, key) {
+    return key in obj;
+}
+
+findKey(obj, key);
