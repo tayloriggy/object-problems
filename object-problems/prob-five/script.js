@@ -13,6 +13,11 @@ Example array: [
 
    ];
 
+   Steps:
+   1. Create a function.
+   2. Use the given array and use the sort method to arrange objects by title value.
+   3. Return the object with titles sorted.
+
 */
 
 const arrayOfBooks = [
@@ -35,5 +40,10 @@ const arrayOfBooks = [
 ];
 
 function sortTitles (obj) {
+    for (let i = 0; i < obj.length; i++){
+      return obj[i].title.sort();
+    }
     
 }
+
+sortTitles(arrayOfBooks);
